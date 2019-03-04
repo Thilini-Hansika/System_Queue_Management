@@ -1,0 +1,142 @@
+*{
+  box-sizing: border-box;
+}
+
+.main {
+  font-family: sans-serif;
+}
+
+.mat-toolbar{
+background-color: blue;
+}
+
+div.mat-toolbar{
+margin: auto;
+}
+
+div.h3{
+margin: auto;
+}
+
+.mat-toolbar-row{
+align-content: center;
+text-align: center;
+}
+
+.mat-button{
+height: 50px;
+width: 220px;
+text-align: center;
+}
+
+.button-panel{
+margin-top: 10%;
+margin-left: 43%;
+}
+
+.proceed{
+margin-top: 10%;
+}
+
+#btnProceed{
+background-color: white;
+text-align: center;
+width: 80%;
+}
+
+#btnsinhala{
+background-color: white;
+}
+
+#btnEnglish{
+background-color: white;
+}
+
+#btnTamil{
+background-color: white;
+}
+
+div.button-panel{
+margin: auto;
+}
+
+div.proceed{
+margin: auto;
+}
+
+/* .container {
+display: flex;
+flex-gap: 5px;
+grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+grid-template-rows: repeat(2, 100px);
+} */ 
+
+.main-container{
+  max-width: 100%;
+  margin: 40px auto 0 auto;
+  display: flex;
+}
+
+.container{
+  padding: 20px;
+  margin-bottom: 20px;
+  flex: 1;
+  margin-right: 20px;
+  margin-left: 20px;
+  width: 100vw;
+  height: 100vh;
+}
+
+.container:nth-child(1){background-color: blue;}
+.container:nth-child(2){background-color: blue;}
+
+.navbar{
+  max-width: 100%;
+  background-color: blue;
+  }
+  
+  .navbar-header {
+  float: left;
+  padding: 15px;
+  text-align: center;
+  width: 100%;
+  }
+  .navbar-brand {
+    float:none;
+    color: white;
+  }
+
+  .wrapper {
+    margin-top: 20%;
+    display: grid;
+    text-align: center;
+    grid-template-columns: 300px 300px;
+    grid-gap: 30px;
+    color: #444;
+  }
+  
+  .grid-items {
+    background-color: #444;
+    color: #fff;
+    border-radius: 5px;
+    padding: 20px;
+    font-size: 150%;
+  }
+
+  .main-container{
+    margin-top: auto;
+    margin: auto;
+  }
+
+  div.container{
+    margin: auto;
+  }
+
+  div.wrapper{
+    margin: auto;
+    margin-top: 25%;
+  }
+
+  div.button-panel{
+    margin-top: 12%;
+  }
